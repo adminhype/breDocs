@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'app/styles/variables.scss' as *;
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
